@@ -53,7 +53,7 @@ class WizardTest {
 
     @Test
     fun train_doesNotHaveEnoughMana() {
-        evilWizard.mana = 5 // not enough mana
+        evilWizard.mana = 4 // not enough mana
 
         val mana = evilWizard.mana
         val spellPower = evilWizard.spellPower
